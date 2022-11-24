@@ -1,0 +1,11 @@
+{
+  // 注意：ts只会默认加载node_modules下的所有.d.ts文件，如果是在定义的.d.ts文件需要在这里引入
+  "files": ["9.声明文件.ts", "myAxios.d.ts"],
+  "include": [],
+  "compilerOptions": {
+    "outDir": "./output",
+    "module": "ESNext", // 要输出的module类型
+    "target": "ES5", // 要输出的js版本
+    "declaration": true // 在从ts编译为js时自动帮助我们生成.d.ts文件方便他人引入我们的库
+  }
+}
